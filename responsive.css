@@ -1,0 +1,67 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  header {
+    padding: 1rem 2rem;
+  }
+  .home {
+    padding: 0rem;
+    padding-right: 1rem;
+  }
+  section {
+    padding: 2rem;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  header .icons #menu-btn {
+    display: inline-block;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    transform: scaleX(0);
+    transform-origin: top;
+    transition: 0.6;
+  }
+  header .navbar a {
+    display: block;
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: #eee;
+  }
+  header .navbar.showNavbar {
+    transform: scaleX(1);
+  }
+  #search-box {
+    width: 85%;
+    margin: 0 1rem;
+  }
+  .home .home-slider .slides .content h3 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .dishes .box-container .box img {
+    height: auto;
+    width: 100%;
+  }
+  .order form .inputBox .input {
+    width: 100%;
+  }
+}
