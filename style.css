@@ -279,7 +279,7 @@ header .icons #menu-btn {
   margin: 1rem 0;
 }
 .dishes .box-container .box:hover img {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 .dishes .box-container .box h3 {
   color: var(--black);
