@@ -275,11 +275,11 @@ header .icons #menu-btn {
   color: var(--white);
 }
 .dishes .box-container .box img {
-  height: 17rem;
+  height: 15rem;
   margin: 1rem 0;
 }
 .dishes .box-container .box:hover img {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 .dishes .box-container .box h3 {
   color: var(--black);

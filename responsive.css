@@ -58,8 +58,7 @@
     font-size: 50%;
   }
   .dishes .box-container .box img {
-    height: auto;
-    width: 100%;
+    height: 20rem;
   }
   .order form .inputBox .input {
     width: 100%;
